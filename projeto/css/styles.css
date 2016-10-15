@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 .container {
     width: 960px;
     margin: 0 auto;
@@ -21,13 +25,13 @@
 }
 
 .header .logo {
-  max-width: 60px;
-  vertical-align: middle;
+    max-width: 60px;
+    vertical-align: middle;
 }
 
 .header .menu {
-  float: right;
-  cursor: default;
+    float: right;
+    cursor: default;
 }
 
 .header .menu ul li {
@@ -37,13 +41,70 @@
 }
 
 .header .menu ul li a {
-  color: #FFF;
-  text-decoration: none;
-  display: block;
-  height: 60px;
-  padding: 0 10px;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
 }
 
 .header .menu ul li a:hover {
-  background-color: #
+    background-color: #1abc9c;
+}
+
+.section {
+    padding-top: 60px;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+}
+
+.home {
+    background-image: url('../images/vem-pro-front-background.jpg');
+    background-repeat: no-repeat;
+    background-position: 40% 10%;
+}
+
+.title-home {
+    font-size: 5.6em;
+    color: #FFF;
+    text-shadow: 0 8px 12px #000;
+    text-transform: uppercase;
+    padding-top: 15%;
+}
+
+.subtitle-home {
+    font-size: 3em;
+    color: #1abc9c;
+    text-align: right;
+    margin-right: 120px;
+}
+
+.instructor {
+    background-color: #252525;
+}
+
+.day1 {
+    background-color: #1abc9c;
+}
+
+.day2 {
+    background-color: #e55126;
+}
+
+.day3 {
+    background-color: #0c73b8;
+}
+
+.day4 {
+    background-color: #e5a228;
+}
+
+.footer {
+    background-color: #303030;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    text-transform: uppercase;
 }
