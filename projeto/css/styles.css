@@ -56,6 +56,7 @@ html, body {
     width: 100%;
     min-height: 100%;
     text-align: center;
+    color: white;
 }
 
 .home {
@@ -83,20 +84,105 @@ html, body {
     background-color: #252525;
 }
 
+.instructor .image {
+    box-shadow: 3px 5px 0 #1abc9c;
+    border-radius: 50%;
+}
+
+.instructor .contacts li {
+    display: inline-block;
+}
+
+.instructor .contacts-images {
+    background-image: url('../images/images-sprites.png');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+
+.instructor .facebook {
+    background-position: -31px -310px;
+}
+
+.instructor .linkedin {
+    background-position: -113px -310px;
+}
+
+.instructor .mail {
+    background-position: -198px -310px;
+}
+
 .day1 {
     background-color: #1abc9c;
+}
+
+.day1 .subject-container {
+    width: 100$;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.day1 .subject-container .subject-item {
+    flex: 1 1 auto;
+    margin: 0 5px;
+}
+
+.day1 .subject-container .subject-item .image {
+    background-image: url('../images/images-sprites.png');
+    background-repeat: no-repeat;
+    width: 245px;
+    height: 245px;
+    display: block;
+}
+
+.day1 .subject-container .subject-item .column1 {
+    background-position: -281px -28px;
+}
+
+.day1 .subject-container .subject-item .column2 {
+    background-position: -281px -28px;
+}
+
+.day1 .subject-container .subject-item .column3 {
+    background-position: -281px -28px;
 }
 
 .day2 {
     background-color: #e55126;
 }
 
+.day2 .image {
+    float: left;
+    margin-left: 150px;
+    margin-right: 30px;
+    display: block;
+    width: 245px;
+    height: 245px;
+    background-image: url('../image/images-sprites.png');
+    background-repeat: no-repeat;
+    background-position:
+}
+
 .day3 {
     background-color: #0c73b8;
 }
 
+.day3 .image {
+    background-image: url('../image/images-sprites.png');
+}
+
 .day4 {
     background-color: #e5a228;
+    color: black;
+}
+
+.day4 .image {
+    background-image: url('../image/images-sprites.png');
+}
+
+.participants {
+    color: #1abc9c;
 }
 
 .footer {
